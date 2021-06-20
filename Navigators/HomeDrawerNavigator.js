@@ -14,3 +14,13 @@ export default function HomeDrawerNavigator() {
     </NavigationContainer>
   );
 }
+
+function HomeDrawerNavigatorRight() {
+  return (
+    <NavigationContainer>
+      <Drawer.Navigator drawerPosition="right" drawerType='slide' drawerContent={(props) => <NavDrawer {...props} />}>
+        <Drawer.Screen name="Buttons" component={Buttons}/>
+      </Drawer.Navigator>
+    </NavigationContainer>
+  );
+}
