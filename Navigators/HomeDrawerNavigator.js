@@ -4,6 +4,8 @@ import { NavigationContainer } from '@react-navigation/native';
 import NavDrawer from './NavDrawer'
 import Buttons from '../Components/Buttons'
 import Images from '../Components/Images';
+import Typography from '../Components/Typography';
+import Carousel from '../Components/Carousel';
 const Drawer = createDrawerNavigator();
 
 export default function HomeDrawerNavigator() {
@@ -12,6 +14,8 @@ export default function HomeDrawerNavigator() {
       <Drawer.Navigator drawerContent={(props) => <NavDrawer {...props} />}>
         <Drawer.Screen name="Buttons" component={Buttons}/>
         <Drawer.Screen name="Images" component={Images}/>
+        <Drawer.Screen name="Typography" component={Typography}/>
+        <Drawer.Screen name="Carousel" component={Carousel}/>
       </Drawer.Navigator>
     </NavigationContainer>
   );
