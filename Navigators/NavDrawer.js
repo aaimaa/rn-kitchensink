@@ -24,6 +24,12 @@ export default class NavDrawer extends Component {
                 <ListItem button onPress={()=>this.props.navigation.navigate('Typography')}>
                   <Text>Typography</Text>
                 </ListItem>
+                <ListItem button onPress={()=>this.props.navigation.navigate('Carousel')}>
+                  <Text>Carousel</Text>
+                </ListItem>
+                <ListItem button onPress={()=>this.props.navigation.navigate('BottomTabNavigator')}>
+                  <Text>BottomTabNavigator</Text>
+                </ListItem>
             </List>
         </Content>
       </Container>
