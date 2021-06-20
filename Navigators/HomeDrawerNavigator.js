@@ -3,6 +3,7 @@ import { createDrawerNavigator } from '@react-navigation/drawer';
 import { NavigationContainer } from '@react-navigation/native';
 import NavDrawer from './NavDrawer'
 import Buttons from '../Components/Buttons'
+import Images from '../Components/Images';
 const Drawer = createDrawerNavigator();
 
 export default function HomeDrawerNavigator() {
@@ -10,6 +11,7 @@ export default function HomeDrawerNavigator() {
     <NavigationContainer>
       <Drawer.Navigator drawerContent={(props) => <NavDrawer {...props} />}>
         <Drawer.Screen name="Buttons" component={Buttons}/>
+        <Drawer.Screen name="Images" component={Images}/>
       </Drawer.Navigator>
     </NavigationContainer>
   );

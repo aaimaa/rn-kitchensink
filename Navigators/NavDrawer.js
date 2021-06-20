@@ -18,6 +18,9 @@ export default class NavDrawer extends Component {
               <ListItem button onPress={()=>this.props.navigation.navigate('Buttons')}>
                 <Text>Buttons</Text>
                 </ListItem>
+                <ListItem button onPress={()=>this.props.navigation.navigate('Images')}>
+                <Text>Images</Text>
+                </ListItem>
             </List>
          
         </Content>
