@@ -3,9 +3,10 @@ import React from 'react';
 import { StyleSheet, Text, View} from 'react-native';
 import HomeDrawerNavigator from './Navigators/HomeDrawerNavigator';
 import SVGIcon from './Components/SVGIcon';
+import Dropdown from './Components/Dropdown';
 export default function App() {
   return (
-    <HomeDrawerNavigator/>
+    <Dropdown/>
   );
 }
 
