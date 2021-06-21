@@ -30,6 +30,9 @@ export default class NavDrawer extends Component {
                 <ListItem button onPress={()=>this.props.navigation.navigate('BottomTabNavigator')}>
                   <Text>BottomTabNavigator</Text>
                 </ListItem>
+                <ListItem button onPress={()=>this.props.navigation.navigate('Form')}>
+                  <Text>Form</Text>
+                </ListItem>
             </List>
         </Content>
       </Container>

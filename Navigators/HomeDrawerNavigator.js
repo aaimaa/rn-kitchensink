@@ -7,6 +7,7 @@ import Images from '../Components/Images';
 import Typography from '../Components/Typography';
 import Carousel from '../Components/Carousel';
 import BottomTabNavigator from './BottomTabNavigator';
+import Form from '../Components/Form';
 const Drawer = createDrawerNavigator();
 
 export default function HomeDrawerNavigator() {
@@ -18,6 +19,8 @@ export default function HomeDrawerNavigator() {
         <Drawer.Screen name="Typography" component={Typography}/>
         <Drawer.Screen name="Carousel" component={Carousel}/>
         <Drawer.Screen name="BottomTabNavigator" component={BottomTabNavigator}/>
+        <Drawer.Screen name="Form" component={Form}/>
+
       </Drawer.Navigator>
     </NavigationContainer>
   );
