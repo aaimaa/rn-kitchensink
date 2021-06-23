@@ -5,6 +5,7 @@ import { List,ListItem } from 'native-base'
 const CountryStatePicker = () => {
    console.log(getStates('in'))
     const data=getCountries();
+    const states=getStates('in');
     return (
         <FlatList
         data={data}
