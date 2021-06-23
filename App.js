@@ -9,9 +9,11 @@ import Cards from './Components/Cards';
 import ListItems from './Components/ListItems';
 import Banners from './Components/Banners';
 import TopBottomAnim from './Components/TopBottomAnim';
+import BasicForm from './Components/BasicForm';
 export default function App() {
   return (
-    <HomeDrawerNavigator/>
+    // <HomeDrawerNavigator/>
+    <BasicForm/>
     // <Cards/>
     // <ListItems/>
     // <Banners/>
