@@ -11,10 +11,13 @@ import Banners from './Components/Banners';
 import TopBottomAnim from './Components/TopBottomAnim';
 import BasicForm from './Components/BasicForm';
 import Webview from './Components/WebView';
+import PaymentInfo from './Components/PaymentInfo';
+import CountryStatePicker from './Components/CountryStatePicker';
 export default function App() {
   return (
-    // <HomeDrawerNavigator/>
-    <Webview/>
+    <HomeDrawerNavigator/>
+    // <Webview/>
+    // <PaymentInfo/>
     // <Cards/>
     // <ListItems/>
     // <Banners/>

@@ -6,6 +6,7 @@ const ListItems = () => {
        <Container>
            <Content contentContainerStyle={{justifyContent:'center',alignItems:'center',flex:1}}>
            <View style={{flexDirection:'row',margin:12}}>
+             {/* Basic Youtube List item */}
         <Image
           source={{ uri: 'https://www.titechglobal.com/wp-content/uploads/2018/08/react-native-banner.jpg' }}
           style={{
@@ -20,6 +21,7 @@ const ListItems = () => {
      
            </Content>
            <View style={{ margin: 8, borderRadius: 12, flex: 1 }}>
+             {/* Detailed Youtube List Item */}
            <Card style={{ borderRadius: 12 }}>
           <CardItem cardBody>
             <Image
@@ -35,6 +37,7 @@ const ListItems = () => {
         </Card>
       </View>
       <ListItem>
+        {/* Chat List item */}
             <Left>
               <Image source={{ uri: 'https://www.w3schools.com/howto/img_avatar.png'}} style={{ width: 50, height: 50 }} />
             </Left>

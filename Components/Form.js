@@ -4,6 +4,7 @@ import { Container,Item,Content,Input,Button } from 'native-base'
 const Form = () => {
     return (
      <Container style={{justifyContent:'center',alignItems:'center'}}>
+       {/* Basic Login Form */}
         <Item regular style={{margin:20,borderRadius:6,width:'80%'}}>
           <Input placeholder='Email' placeholderTextColor="black"/>
         </Item>
