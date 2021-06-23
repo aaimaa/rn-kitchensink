@@ -34,6 +34,19 @@ const ListItems = () => {
           </Body>
         </Card>
       </View>
+      <ListItem>
+            <Left>
+              <Image source={{ uri: 'https://www.w3schools.com/howto/img_avatar.png'}} style={{ width: 50, height: 50 }} />
+            </Left>
+            <View style={{position:'absolute',left:70}}>
+            <Body>
+              <Text style={{fontWeight:'bold'}}>Basic Item</Text>
+            </Body>
+            </View>
+           <Right>
+           <MaterialIcons name="keyboard-arrow-right" size={24} color="black" />
+           </Right>
+          </ListItem>
        </Container>
     )
 }
