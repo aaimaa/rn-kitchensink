@@ -5,9 +5,11 @@ import HomeDrawerNavigator from './Navigators/HomeDrawerNavigator';
 import SVGIcon from './Components/SVGIcon';
 import Dropdown from './Components/Dropdown';
 import Form from './Components/Form';
+import Cards from './Components/Cards';
 export default function App() {
   return (
-    <HomeDrawerNavigator/>
+    // <HomeDrawerNavigator/>
+    <Cards/>
   );
 }
 
