@@ -6,10 +6,12 @@ import SVGIcon from './Components/SVGIcon';
 import Dropdown from './Components/Dropdown';
 import Form from './Components/Form';
 import Cards from './Components/Cards';
+import ListItems from './Components/ListItems';
 export default function App() {
   return (
     // <HomeDrawerNavigator/>
-    <Cards/>
+    // <Cards/>
+    <ListItems/>
   );
 }
 
