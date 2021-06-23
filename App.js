@@ -8,12 +8,14 @@ import Form from './Components/Form';
 import Cards from './Components/Cards';
 import ListItems from './Components/ListItems';
 import Banners from './Components/Banners';
+import TopBottomAnim from './Components/TopBottomAnim';
 export default function App() {
   return (
     // <HomeDrawerNavigator/>
     // <Cards/>
     // <ListItems/>
-    <Banners/>
+    // <Banners/>
+    <TopBottomAnim/>
   );
 }
 
