@@ -7,11 +7,13 @@ import Dropdown from './Components/Dropdown';
 import Form from './Components/Form';
 import Cards from './Components/Cards';
 import ListItems from './Components/ListItems';
+import Banners from './Components/Banners';
 export default function App() {
   return (
     // <HomeDrawerNavigator/>
     // <Cards/>
-    <ListItems/>
+    // <ListItems/>
+    <Banners/>
   );
 }
 
