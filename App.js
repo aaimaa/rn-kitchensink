@@ -9,7 +9,7 @@ import Cards from './Components/Cards';
 import ListItems from './Components/ListItems';
 import Banners from './Components/Banners';
 import TopBottomAnim from './Components/TopBottomAnim';
-import BasicForm from './Components/BasicForm';
+import AccountForm from './Components/AccountForm';
 import Webview from './Components/WebView';
 import PaymentInfo from './Components/PaymentInfo';
 import CountryStatePicker from './Components/CountryStatePicker';

@@ -39,6 +39,18 @@ export default class NavDrawer extends Component {
                 <ListItem button onPress={()=>this.props.navigation.navigate('TopBottom')}>
                   <Text>TopBottomAnim</Text>
                 </ListItem>
+                <ListItem button onPress={()=>this.props.navigation.navigate('Cards')}>
+                  <Text>Cards</Text>
+                </ListItem>
+                <ListItem button onPress={()=>this.props.navigation.navigate('Webview')}>
+                  <Text>Webview</Text>
+                </ListItem>
+                <ListItem button onPress={()=>this.props.navigation.navigate('AccountForm')}>
+                  <Text>AccountForm</Text>
+                </ListItem>
+                <ListItem button onPress={()=>this.props.navigation.navigate('PaymentInfo')}>
+                  <Text>PaymentInfo</Text>
+                </ListItem>
             </List>
         </Content>
       </Container>

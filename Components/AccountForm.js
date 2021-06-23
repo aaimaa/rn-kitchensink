@@ -1,7 +1,7 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 import { Input, Item, Container, Content, Button } from "native-base";
-const BasicForm = () => {
+const AccountForm = () => {
   return (
     <Container>
       <Content
@@ -117,6 +117,6 @@ const BasicForm = () => {
   );
 };
 
-export default BasicForm;
+export default AccountForm;
 
 const styles = StyleSheet.create({});
