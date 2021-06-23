@@ -4,6 +4,7 @@ import { Input, Item, Container, Content, Button } from "native-base";
 const AccountForm = () => {
   return (
     <Container>
+      {/* Account Details Form */}
       <Content
         contentContainerStyle={{
           flex: 1,

@@ -4,6 +4,7 @@ import { Container, Content, H2, Input, Item, Button } from "native-base";
 const PaymentInfo = () => {
   return (
     <Container>
+      {/* Debit/Credit Card Details Form */}
       <Content
         contentContainerStyle={{
           flex: 1,

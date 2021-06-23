@@ -51,6 +51,9 @@ export default class NavDrawer extends Component {
                 <ListItem button onPress={()=>this.props.navigation.navigate('PaymentInfo')}>
                   <Text>PaymentInfo</Text>
                 </ListItem>
+                <ListItem button onPress={()=>this.props.navigation.navigate('CountryState')}>
+                  <Text>CountryState</Text>
+                </ListItem>
             </List>
         </Content>
       </Container>

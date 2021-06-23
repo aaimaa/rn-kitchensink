@@ -2,16 +2,18 @@ import React from 'react'
 import { StyleSheet, Text, View ,FlatList} from 'react-native'
 import { getCountries,getStates } from 'country-state-picker'
 import { List,ListItem } from 'native-base'
+import { useNavigation } from '@react-navigation/core'
 const CountryStatePicker = () => {
-   console.log(getStates('in'))
+    const navigation=useNavigation();
     const data=getCountries();
-    const states=getStates('in');
     return (
         <FlatList
         data={data}
         renderItem={({item})=>
         <List>
-            <ListItem>
+            <ListItem onPress={()=>navigation.navigate('StateScreen',{
+                state:item.code
+            })}>
             <Text>{item.name}</Text>
             </ListItem>
         </List>

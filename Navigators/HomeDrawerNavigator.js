@@ -14,6 +14,7 @@ import Cards from "../Components/Cards";
 import Webview from "../Components/WebView";
 import AccountForm from "../Components/AccountForm";
 import PaymentInfo from "../Components/PaymentInfo";
+import CountryNavigator from "./CountryNavigator";
 const Drawer = createDrawerNavigator();
 
 export default function HomeDrawerNavigator() {
@@ -35,6 +36,7 @@ export default function HomeDrawerNavigator() {
         <Drawer.Screen name="Webview" component={Webview} />
         <Drawer.Screen name="AccountForm" component={AccountForm} />
         <Drawer.Screen name="PaymentInfo" component={PaymentInfo} />
+        <Drawer.Screen name="CountryState" component={CountryNavigator}/>
       </Drawer.Navigator>
     </NavigationContainer>
   );
