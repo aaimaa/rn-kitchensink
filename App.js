@@ -10,10 +10,11 @@ import ListItems from './Components/ListItems';
 import Banners from './Components/Banners';
 import TopBottomAnim from './Components/TopBottomAnim';
 import BasicForm from './Components/BasicForm';
+import Webview from './Components/WebView';
 export default function App() {
   return (
     // <HomeDrawerNavigator/>
-    <BasicForm/>
+    <Webview/>
     // <Cards/>
     // <ListItems/>
     // <Banners/>
