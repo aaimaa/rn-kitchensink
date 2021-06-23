@@ -1,7 +1,11 @@
 import React from "react";
 import { StyleSheet, Text, View, FlatList, Image } from "react-native";
-import { Container, Content,Card,CardItem } from "native-base";
+import { Container, Content,Card,CardItem,Header,Body,Left,Right,Icon,Button } from "native-base";
+import { useNavigation } from "@react-navigation/core";
+import { Entypo } from '@expo/vector-icons';
+
 const Banners = () => {
+    const navigation=useNavigation();
   const data = [
     {
       imageUri:
@@ -18,6 +22,33 @@ const Banners = () => {
   ];
   return (
     <Container style={{ flex: 1 }}>
+           <Header
+        style={{ backgroundColor: "#CAD5E2" }}
+        androidStatusBarColor="#CAD5E2"
+      >
+        <Left>
+          <Button transparent>
+            <Entypo
+              name="menu"
+              size={24}
+              color="green"
+              onPress={() => navigation.openDrawer()}
+            />
+          </Button>
+        </Left>
+        <Body
+          style={{
+            flex: 3,
+            flexDirection: "row",
+            justifyContent: "flex-start",
+          }}
+        >
+          <Text style={{ fontWeight: "bold", color: "green", fontSize: 20 }}>
+            Banners
+          </Text>
+        </Body>
+        <Right />
+      </Header>
       <Content>
         <FlatList
           style={{ marginTop: 100 }}

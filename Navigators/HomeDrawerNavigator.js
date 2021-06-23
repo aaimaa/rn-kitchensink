@@ -8,6 +8,8 @@ import Typography from '../Components/Typography';
 import Carousel from '../Components/Carousel';
 import BottomTabNavigator from './BottomTabNavigator';
 import Form from '../Components/Form';
+import Banners from '../Components/Banners';
+import TopBottomAnim from '../Components/TopBottomAnim';
 const Drawer = createDrawerNavigator();
 
 export default function HomeDrawerNavigator() {
@@ -20,6 +22,8 @@ export default function HomeDrawerNavigator() {
         <Drawer.Screen name="Carousel" component={Carousel}/>
         <Drawer.Screen name="BottomTabNavigator" component={BottomTabNavigator}/>
         <Drawer.Screen name="Form" component={Form}/>
+        <Drawer.Screen name="Banners" component={Banners}/>
+        <Drawer.Screen name="TopBottom" component={TopBottomAnim}/>
 
       </Drawer.Navigator>
     </NavigationContainer>

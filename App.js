@@ -11,11 +11,11 @@ import Banners from './Components/Banners';
 import TopBottomAnim from './Components/TopBottomAnim';
 export default function App() {
   return (
-    // <HomeDrawerNavigator/>
+    <HomeDrawerNavigator/>
     // <Cards/>
     // <ListItems/>
     // <Banners/>
-    <TopBottomAnim/>
+    // <TopBottomAnim/>
   );
 }
 
