@@ -14,9 +14,10 @@ import Webview from './Components/WebView';
 import PaymentInfo from './Components/PaymentInfo';
 import CountryStatePicker from './Components/CountryStatePicker';
 import CountryNavigator from './Navigators/CountryNavigator';
+import SwipeableList from './Features/SwipeableList';
 export default function App() {
   return (
-    <HomeDrawerNavigator/>
+    <SwipeableList/>
     // <CountryNavigator/>
     // <Webview/>
     // <PaymentInfo/>
