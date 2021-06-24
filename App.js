@@ -15,9 +15,11 @@ import PaymentInfo from './Components/PaymentInfo';
 import CountryStatePicker from './Components/CountryStatePicker';
 import CountryNavigator from './Navigators/CountryNavigator';
 import SwipeableList from './Features/SwipeableList';
+import LineGraph from './Features/LineGraph';
 export default function App() {
   return (
-    <SwipeableList/>
+    // <SwipeableList/>
+    <LineGraph/>
     // <CountryNavigator/>
     // <Webview/>
     // <PaymentInfo/>
