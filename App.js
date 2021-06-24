@@ -16,10 +16,12 @@ import CountryStatePicker from './Components/CountryStatePicker';
 import CountryNavigator from './Navigators/CountryNavigator';
 import SwipeableList from './Features/SwipeableList';
 import LineGraph from './Features/LineGraph';
+import OnboardingScreens from './Features/OnboardingScreens';
 export default function App() {
   return (
     // <SwipeableList/>
-    <LineGraph/>
+    // <LineGraph/>
+    <OnboardingScreens/>
     // <CountryNavigator/>
     // <Webview/>
     // <PaymentInfo/>
