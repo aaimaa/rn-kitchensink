@@ -9,6 +9,7 @@ import {
   ImageBackground,
 } from "react-native";
 import { Container, Content, Card, CardItem } from "native-base";
+import { MaterialIcons } from '@expo/vector-icons';
 import GestureRecognizer, {
   swipeDirections,
 } from "react-native-swipe-gestures";
@@ -55,58 +56,124 @@ renderItem={({item})=><Text>Hhello</Text>
               contentContainerStyle={{
                 flexDirection: "row",
                 marginTop: 150,
-                marginLeft: 30,
+                marginLeft: 30
               }}
-              onScroll={() => setPos(pos + 10)}
+              showsHorizontalScrollIndicator={false}
+              
             >
-              <Card style={{ borderRadius: 12 }}>
-                <CardItem
-                  style={{
-                    backgroundColor: "red",
-                    height: 70,
-                    width: 150,
-                    borderRadius: 12,
-                  }}
-                >
-                  <Text>card</Text>
-                </CardItem>
-              </Card>
-              <Card style={{ borderRadius: 12 }}>
-                <CardItem
-                  style={{
-                    backgroundColor: "red",
-                    height: 70,
-                    width: 150,
-                    borderRadius: 12,
-                  }}
-                >
-                  <Text>card</Text>
-                </CardItem>
-              </Card>
-              <Card style={{ borderRadius: 12 }}>
-                <CardItem
-                  style={{
-                    backgroundColor: "red",
-                    height: 70,
-                    width: 150,
-                    borderRadius: 12,
-                  }}
-                >
-                  <Text>card</Text>
-                </CardItem>
-              </Card>
-              <Card style={{ borderRadius: 12 }}>
-                <CardItem
-                  style={{
-                    backgroundColor: "red",
-                    height: 70,
-                    width: 150,
-                    borderRadius: 12,
-                  }}
-                >
-                  <Text>card</Text>
-                </CardItem>
-              </Card>
+             <Card style={{ flexDirection: "row", height: 100 ,width:280,borderRadius:8,justifyContent:'flex-start',alignItems:'center',flex:1}}>
+          <Card
+            style={{
+              width: 60,
+              height:60,
+              justifyContent: "center",
+              alignItems: "center",
+              marginLeft:20
+            }}
+          >
+            <Image
+              source={require('../assets/pexels_1.jpg')}
+              style={{ width: 60, height:'100%'}}
+            />
+          </Card>
+          <View style={{ justifyContent: "center",position:'absolute',left:100,top:20 }}>
+            <View style={{flexDirection:'row',justifyContent:'space-between'}}>
+            <Text style={{ fontSize: 12,color:'darkgray' }}>2h ago</Text>
+            </View>
+            <View style={{ flexDirection: "row",marginTop:10 }}>
+              <Text style={{fontSize:18,fontWeight:'bold'}}>Right Trap</Text> 
+          <MaterialIcons name="keyboard-arrow-right" size={24} color="darkgray" style={{position:'absolute',bottom:0,left:140}}/>
+
+            </View>
+            <View style={{ flexDirection: "row" }}>
+              <Text style={{fontSize:12,fontWeight:'bold',color:'blue'}}>Extended Recovery</Text> 
+            </View>
+          </View>
+        </Card>
+        <Card style={{ flexDirection: "row", height: 100 ,width:250,borderRadius:8,justifyContent:'flex-start',alignItems:'center'}}>
+          <Card
+            style={{
+              width: 60,
+              height:60,
+              justifyContent: "center",
+              alignItems: "center",
+              marginLeft:20
+            }}
+          >
+            <Image
+              source={require('../assets/pexels_1.jpg')}
+              style={{ width: 60, height:'100%'}}
+            />
+          </Card>
+          <View style={{ justifyContent: "center",position:'absolute',left:100,top:20 }}>
+            <View style={{flexDirection:'row',justifyContent:'space-between'}}>
+            <Text style={{ fontSize: 12,color:'darkgray' }}>2h ago</Text>
+            </View>
+            <View style={{ flexDirection: "row",marginTop:10 }}>
+              <Text style={{fontSize:18,fontWeight:'bold'}}>Right Trap</Text> 
+
+            </View>
+            <View style={{ flexDirection: "row" }}>
+              <Text style={{fontSize:12,fontWeight:'bold',color:'blue'}}>Extended Recovery</Text> 
+            </View>
+          </View>
+        </Card>
+        <Card style={{ flexDirection: "row", height: 100 ,width:250,borderRadius:8,justifyContent:'flex-start',alignItems:'center'}}>
+          <Card
+            style={{
+              width: 60,
+              height:60,
+              justifyContent: "center",
+              alignItems: "center",
+              marginLeft:20
+            }}
+          >
+            <Image
+              source={require('../assets/pexels_1.jpg')}
+              style={{ width: 60, height:'100%'}}
+            />
+          </Card>
+          <View style={{ justifyContent: "center",position:'absolute',left:100,top:20 }}>
+            <View style={{flexDirection:'row',justifyContent:'space-between'}}>
+            <Text style={{ fontSize: 12,color:'darkgray' }}>2h ago</Text>
+            </View>
+            <View style={{ flexDirection: "row",marginTop:10 }}>
+              <Text style={{fontSize:18,fontWeight:'bold'}}>Right Trap</Text> 
+
+            </View>
+            <View style={{ flexDirection: "row" }}>
+              <Text style={{fontSize:12,fontWeight:'bold',color:'blue'}}>Extended Recovery</Text> 
+            </View>
+          </View>
+        </Card>
+        <Card style={{ flexDirection: "row", height: 100 ,width:250,borderRadius:8,justifyContent:'flex-start',alignItems:'center',flex:1}}>
+          <Card
+            style={{
+              width: 60,
+              height:60,
+              justifyContent: "center",
+              alignItems: "center",
+              marginLeft:20
+            }}
+          >
+            <Image
+              source={require('../assets/pexels_1.jpg')}
+              style={{ width: 60, height:'100%'}}
+            />
+          </Card>
+          <View style={{ justifyContent: "center",position:'absolute',left:100,top:20 }}>
+            <View style={{flexDirection:'row',justifyContent:'space-between'}}>
+            <Text style={{ fontSize: 12,color:'darkgray' }}>2h ago</Text>
+            </View>
+            <View style={{ flexDirection: "row",marginTop:10 }}>
+              <Text style={{fontSize:18,fontWeight:'bold'}}>Right Trap</Text> 
+
+            </View>
+            <View style={{ flexDirection: "row" }}>
+              <Text style={{fontSize:12,fontWeight:'bold',color:'blue'}}>Extended Recovery</Text> 
+            </View>
+          </View>
+        </Card>
             </ScrollView>
           </GestureRecognizer>
         </View>
