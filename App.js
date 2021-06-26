@@ -21,6 +21,7 @@ import SearchBar from './Components/SearchBar';
 import BottomTabNavigator from './Navigators/BottomTabNavigator';
 import CurrentLocation from './Features/CurrentLocation';
 import SystemSettings from './Features/SystemSettings';
+import HashingPassword from './Features/HashingPassword';
 export default function App() {
   return (
     // <SwipeableList/>
@@ -34,7 +35,8 @@ export default function App() {
     // <Banners/>
     // <TopBottomAnim/>
     // <CurrentLocation/>
-    <SystemSettings/>
+    // <SystemSettings/>
+    <HashingPassword/>
   );
 }
 
