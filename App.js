@@ -19,6 +19,7 @@ import LineGraph from './Features/LineGraph';
 import OnboardingScreens from './Features/OnboardingScreens';
 import SearchBar from './Components/SearchBar';
 import BottomTabNavigator from './Navigators/BottomTabNavigator';
+import CurrentLocation from './Features/CurrentLocation';
 export default function App() {
   return (
     // <SwipeableList/>
@@ -31,7 +32,7 @@ export default function App() {
     // <ListItems/>
     // <Banners/>
     // <TopBottomAnim/>
-    <BottomTabNavigator/>
+    <CurrentLocation/>
   );
 }
 
