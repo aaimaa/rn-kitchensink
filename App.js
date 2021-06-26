@@ -20,6 +20,7 @@ import OnboardingScreens from './Features/OnboardingScreens';
 import SearchBar from './Components/SearchBar';
 import BottomTabNavigator from './Navigators/BottomTabNavigator';
 import CurrentLocation from './Features/CurrentLocation';
+import SystemSettings from './Features/SystemSettings';
 export default function App() {
   return (
     // <SwipeableList/>
@@ -32,7 +33,8 @@ export default function App() {
     // <ListItems/>
     // <Banners/>
     // <TopBottomAnim/>
-    <CurrentLocation/>
+    // <CurrentLocation/>
+    <SystemSettings/>
   );
 }
 
