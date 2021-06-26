@@ -1,6 +1,7 @@
 import React from 'react'
 import { StyleSheet, Text, View,Image } from 'react-native'
-import { Container,Content,Body,Card,CardItem } from 'native-base'
+import { Container,Content,Body,Card,CardItem ,ListItem,Left,Right} from 'native-base'
+import { MaterialIcons } from '@expo/vector-icons'
 const ListItems = () => {
     return (
        <Container>

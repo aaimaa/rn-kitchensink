@@ -18,11 +18,12 @@ import SwipeableList from './Features/SwipeableList';
 import LineGraph from './Features/LineGraph';
 import OnboardingScreens from './Features/OnboardingScreens';
 import SearchBar from './Components/SearchBar';
+import BottomTabNavigator from './Navigators/BottomTabNavigator';
 export default function App() {
   return (
     // <SwipeableList/>
     // <LineGraph/>
-    <SearchBar/>
+    // <SearchBar/>
     // <CountryNavigator/>
     // <Webview/>
     // <PaymentInfo/>
@@ -30,6 +31,7 @@ export default function App() {
     // <ListItems/>
     // <Banners/>
     // <TopBottomAnim/>
+    <BottomTabNavigator/>
   );
 }
 
